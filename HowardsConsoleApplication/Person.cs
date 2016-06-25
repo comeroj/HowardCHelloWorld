@@ -12,7 +12,7 @@ namespace HowardsConsoleApplication
 
         public Person()
         {
-            LastName = "Brown";
+            LastName = "Johnson";
         }
         public Person(string fname, string lname)
         {
