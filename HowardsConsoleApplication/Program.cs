@@ -17,8 +17,8 @@ namespace HowardsConsoleApplication
             mystudent.LastName = "John";
             mystudent.FirstName = "Smith";
             mystudent.Birthday = new DateTime(2011, 06, 15);
-            double sage = mystudent.Age;
-            int sintage = int.Parse(sage.ToString().Split('.')[0]);
+            //double sage = mystudent.Age;
+            //int sintage = int.Parse(sage.ToString().Split('.')[0]);
 
             Student mystudent1 = new Student();
             mystudent1.LastName = "Loretta";
@@ -56,15 +56,16 @@ namespace HowardsConsoleApplication
             //Console.WriteLine(sintage);
 
 
-            IPerson [double sage = peep.;
-            int sintage = int.Parse(sage.ToString().Split('.')[0]);]
+            IPerson []
              mypeeps = { mystudent, mystudent1, mystudent2, mystudent3, mystudent4, myteach,
                 myteach1, myteach2, myteach3, myteach4 };
-            foreach (IPerson  peep in mypeeps)
+            foreach (IPerson peep in mypeeps)
             {
+                double sage = peep.Age;
+                int sintage = int.Parse(sage.ToString().Split('.')[0]);
                 Console.WriteLine("Hello " + peep.FullName + ",");
+                Console.WriteLine(sintage);
             }
-            Console.WriteLine(sintage);
             int i = 0;
             while (true)
             {

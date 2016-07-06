@@ -24,7 +24,6 @@ namespace HowardsConsoleApplication
         //private string _firstname = "Howard";
         public bool hadadog = false;
         public int age = 3;
-        public DateTime Birthday { get; set; }
         public long secondsalive = 168465189;
         public double moneyinthebank = 15.21;
         //decimal pie = 3.1405168161M;
@@ -32,25 +31,25 @@ namespace HowardsConsoleApplication
         public DateTime _today = DateTime.Now;
         public Guid? myguid = Guid.NewGuid();
         private string _fullname;
-        public double Age {
-            get{
-                double Myage = DateTime.Today.Subtract(Birthday).TotalDays / 365;
-                return Myage;
+        ////public double Age {
+        //    get{
+        //        double Myage = DateTime.Today.Subtract(Birthday).TotalDays / 365;
+        //        return Myage;
 
-            }
-        }
-        public override string FullName
-        {
-            get
-            {
-                if (_fullname == null)
-                {
-                    _fullname = FirstName + " " + LastName;
-                }
+        //    }
+        //}
+        //public override string FullName
+        //{
+        //    get
+        //    {
+        //        if (_fullname == null)
+        //        {
+        //            _fullname = FirstName + " " + LastName;
+        //        }
 
-                return _fullname;
-            }
-        }
+        //        return _fullname;
+        //    }
+        //}
         
                            
      

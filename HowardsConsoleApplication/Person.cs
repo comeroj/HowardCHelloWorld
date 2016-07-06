@@ -10,7 +10,17 @@ namespace HowardsConsoleApplication
     {
         private string _firstname;
         private string _fullname;
+        public DateTime Birthday { get; set; }
 
+        public double Age
+        {
+            get
+            {
+                double Myage = DateTime.Today.Subtract(Birthday).TotalDays / 365;
+                return Myage;
+
+            }
+        }
         public string FirstName
         {
             get
