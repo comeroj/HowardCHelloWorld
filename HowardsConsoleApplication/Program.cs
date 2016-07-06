@@ -49,8 +49,8 @@ namespace HowardsConsoleApplication
             Teacher myteach4 = new Teacher { LastName = "Donald", FirstName = "Scotts" };
             myteach4.Birthday = new DateTime(1979, 07, 10);
 
-            //double mywholeage = Math.Round(myage, 2);
-            //Console.WriteLine(mywholeage);
+            double mywholeage = Math.Round(myage, 2);
+            Console.WriteLine(mywholeage);
             //Console.Write(mystudent.FullName);
             //Console.Write(" Age =");
             //Console.WriteLine(sintage);
