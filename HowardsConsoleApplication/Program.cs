@@ -24,9 +24,7 @@ namespace HowardsConsoleApplication
             mystudent1.LastName = "Loretta";
             mystudent1.FirstName = "Blackburn";
             mystudent1.Birthday = new DateTime(2003, 12, 05);
-            double sage1 = mystudent1.Age;
-            int sintage1 = int.Parse(sage1.ToString().Split('.')[0]);
-
+            
             Student mystudent2 = new Student();
             mystudent2.LastName = "David";
             mystudent2.FirstName = "Peterson";
@@ -51,7 +49,7 @@ namespace HowardsConsoleApplication
             Teacher myteach4 = new Teacher { LastName = "Donald", FirstName = "Scotts" };
             myteach4.Birthday = new DateTime(1979, 07, 10);
 
-            // double mywholeage = Math.Round(myage, 2);
+            //double mywholeage = Math.Round(myage, 2);
             //Console.WriteLine(mywholeage);
             //Console.Write(mystudent.FullName);
             //Console.Write(" Age =");
