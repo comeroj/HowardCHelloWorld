@@ -21,13 +21,13 @@ namespace HowardsConsoleApplication
         }
 
         
-        private string _firstname = "Howard";
+        //private string _firstname = "Howard";
         public bool hadadog = false;
         public int age = 3;
         public DateTime Birthday { get; set; }
         public long secondsalive = 168465189;
         public double moneyinthebank = 15.21;
-        decimal pie = 3.1405168161M;
+        //decimal pie = 3.1405168161M;
         public string[] nicknames = { "abe", "jones" };
         public DateTime _today = DateTime.Now;
         public Guid? myguid = Guid.NewGuid();

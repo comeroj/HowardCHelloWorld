@@ -12,6 +12,6 @@ namespace HowardsConsoleApplication
         string FirstName { get; set; }
         string LastName { get; set; }
         string FullName { get; }
-        
+        double Age { get; }
     }
 }

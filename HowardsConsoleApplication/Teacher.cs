@@ -8,7 +8,13 @@ namespace HowardsConsoleApplication
 {
     public class Teacher : Person
     {
+        public DateTime Birthday;
+        public double Age
+        {
+            get
+            {
+                double Myage = DateTime.Today.Subtract(Birthday).TotalDays / 365;
+                return Myage;
+            }
 
-
-    }
 }
